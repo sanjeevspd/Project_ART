@@ -1,0 +1,129 @@
+{% extends 'customerapp/userhome.html' %}
+
+{% block content %}
+
+<div class="main">
+<div class="cards">
+<div class="images">
+   <img src="static/images/1.jpg" >
+</div>
+<div class="titles">
+ <h1>
+Lepakshi Kondapalli Bullock Cart</h1>
+</div>
+<div class="des">
+ <h4>&#8377;1,008</h4>
+<button>Buy</button>
+</div>
+</div>
+<div class="cards">
+<div class="images">
+ <img src="static/images/2.jpg" >
+</div>
+<div class="titles">
+ <h1>
+Kondapalli Wooden Hut Multicolour</h1>
+</div>
+<div class="des">
+ <h4>&#8377;190</h4>
+<button><a style="color:black" href="customerapp/pd1.html">Buy</a></button>
+</div>
+</div>
+
+<div class="cards">
+
+<div class="images">
+   <img src="static/images/3.jpg" >
+</div>
+<div class="titles">
+ <h1>Sankranti Wooden Setup Showpiece</h1>
+</div>
+<div class="des">
+ <h4>&#8377;1,492</h4>
+<button>Buy</button>
+</div>
+</div>
+
+
+<div class="cards">
+
+<div class="images">
+  <img src="static/images/4.jpg" >
+</div>
+<div class="titles">
+ <h1>Krishna and Four GOPIKA with JULA</h1>
+</div>
+<div class="des">
+ <h4>&#8377;1,125</h4>
+<button>Buy</button>
+</div>
+</div>
+
+
+<div class="cards">
+
+<div class="images">
+  <img src="static/images/5.jpg" >
+</div>
+<div class="titles">
+ <h1>Lady Making Butter </h1>
+</div>
+<div class="des">
+ <h4>&#8377;700</h4>
+<button>Buy</button>
+</div>
+</div>
+
+<div class="cards">
+
+<div class="images">
+   <img src="static/images/6.jpg" >
+</div>
+<div class="titles">
+ <h1>Traditional Wooden Indian Marriage Couple</h1>
+</div>
+<div class="des">
+ <h4>&#8377;545</h4>
+    <button>Buy</button>
+
+
+</div>
+</div>
+
+<div class="cards">
+
+<div class="images">
+   <img src="static/images/7.jpg" >
+</div>
+<div class="titles">
+ <h1>
+Andhra Hand Crafts Kondapalli Wooden Temple </h1>
+</div>
+<div class="des">
+ <h4>&#8377;995</h4>
+<button>Buy</button>
+</div>
+</div>
+
+
+<div class="cards">
+
+<div class="images">
+   <img src="static/images/8.jpg" >
+</div>
+<div class="titles">
+ <h1>KONDAPALLI Sitting Toy- Pot Maker </h1>
+</div>
+<div class="des">
+ <h4>&#8377;700</h4>
+<button>Buy</button>
+</div>
+</div>
+</div>
+  <script>
+        var buyButton = document.getElementById("Buy");
+        buyButton.addEventListener("click", function() {
+            window.location.href = "pd1.html";
+        });
+    </script>
+{% endblock %}

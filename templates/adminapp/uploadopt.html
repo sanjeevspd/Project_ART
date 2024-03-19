@@ -1,0 +1,14 @@
+{% extends 'adminapp/adminhome.html' %}
+{% block content %}
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <label for="title">Title:</label>
+    <input type="text" id="title" name="title">
+    <br>
+    <label for="image">Image:</label>
+    <input type="file" id="image" name="image">
+    <br>
+    <input type="submit" value="Upload">
+</form>
+
+{% endblock %}
